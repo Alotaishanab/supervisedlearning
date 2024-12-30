@@ -1,0 +1,47 @@
+Run,Selected d*,Training Error (%),Test Error (%)
+1,5,0.0,2.795698924731183
+2,3,0.013444474321054048,2.5268817204301075
+3,5,0.013444474321054048,2.6344086021505375
+4,4,0.026888948642108095,2.5268817204301075
+5,4,0.013444474321054048,2.6344086021505375
+6,4,0.013444474321054048,2.4731182795698925
+7,5,0.013444474321054048,2.741935483870968
+8,4,0.013444474321054048,2.5806451612903225
+9,7,0.0,2.4193548387096775
+10,6,0.0,2.4193548387096775
+11,5,0.026888948642108095,2.903225806451613
+12,4,0.04033342296316214,2.903225806451613
+13,6,0.013444474321054048,2.4193548387096775
+14,6,0.013444474321054048,2.311827956989247
+15,3,0.013444474321054048,2.5268817204301075
+16,4,0.05377789728421619,3.064516129032258
+17,3,0.013444474321054048,2.4193548387096775
+18,6,0.013444474321054048,2.849462365591398
+19,5,0.013444474321054048,2.795698924731183
+20,4,0.0,2.903225806451613
+
+
+
+
+
+
+Epoch 25/25
+Epoch completed.
+
+    Training Error: 0.00%
+    Test Error: 2.90%
+
+Cross-Validation Results:
+Mean d*: 4.65 ± 1.14
+Mean Training Error: 0.02% ± 0.01%
+Mean Test Error: 2.64% ± 0.21%
+
+Traceback (most recent call last):
+  File "/Users/abdullah/Desktop/Supervised learning/cw2/q4_and_q5.py", line 263, in <module>
+    std_rate = statistics.stdev(rates) if num_runs > 1 else 0.0
+  File "/Users/abdullah/.pyenv/versions/3.10.0/lib/python3.10/statistics.py", line 833, in stdev
+    var = variance(data, xbar)
+  File "/Users/abdullah/.pyenv/versions/3.10.0/lib/python3.10/statistics.py", line 775, in variance
+    raise StatisticsError('variance requires at least two data points')
+statistics.StatisticsError: variance requires at least two data points
+(venv) abdullah@192 cw2 % 
